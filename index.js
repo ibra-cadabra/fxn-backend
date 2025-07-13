@@ -18,12 +18,21 @@ dotenv.config();
 const app = express();
 
 // ✅ Configuration CORS pour autoriser Vercel
-const corsOptions = {
-  origin: ['https://fxn-frontend-imhb.vercel.app'], // ton domaine frontend
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],        // méthodes autorisées
+const allowedOrigins = [
+  'https://fxn-frontend-uy2y.vercel.app', // ton domaine Vercel actuel
+  'http://localhost:4200' // utile pour développement local
+];
+
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
-};
-app.use(cors(corsOptions));
+}));
 
 // 🧠 Middleware JSON
 app.use(express.json());

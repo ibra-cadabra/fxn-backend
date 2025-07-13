@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/erp-stock-backend.iml" filepath="$PROJECT_DIR$/.idea/erp-stock-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fxn-project.iml" filepath="$PROJECT_DIR$/.idea/fxn-project.iml" />
     </modules>
   </component>
 </project>

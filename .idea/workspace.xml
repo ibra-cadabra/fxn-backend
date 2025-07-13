@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8c41abf-a228-4237-8eef-5927f88aa8dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,9 @@
     &quot;accountId&quot;: &quot;6e36b32b-6d9a-43a0-b578-46b1f63adbf4&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -68,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752422163518</updated>
       <workItem from="1752422165134" duration="96000" />
-      <workItem from="1752422303160" duration="1195000" />
+      <workItem from="1752422303160" duration="3118000" />
     </task>
     <servers />
   </component>

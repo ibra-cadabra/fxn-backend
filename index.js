@@ -18,19 +18,11 @@ dotenv.config();
 const app = express();
 
 // ✅ Configuration CORS pour autoriser Vercel
-const allowedOrigins = [
-  'https://fxn-frontend-uy2y.vercel.app', // ton domaine Vercel actuel
-  'http://localhost:4200' // utile pour développement local
-];
-
 app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: [
+    'https://fxn-frontend.vercel.app',
+    'https://fxn-frontend-uy2y-j43cjff0f-ibra-cadabras-projects.vercel.app' // ← ton vrai sous-domaine Vercel
+  ],
   credentials: true
 }));
 

@@ -1,0 +1,144 @@
+{
+  "outils_installation_raccordement": [
+    {
+      "nom": "Pince à dénuder",
+      "emoji": "🔧",
+      "description": "Retire la gaine du câble optique sans endommager les fibres."
+    },
+    {
+      "nom": "Ciseaux à Kevlar",
+      "emoji": "✂️",
+      "description": "Pour couper les fibres de renfort Kevlar."
+    },
+    {
+      "nom": "Cliveuse (coupe fibre)",
+      "emoji": "🔍",
+      "description": "Coupe la fibre avec une extrême précision avant fusion."
+    },
+    {
+      "nom": "Soudeuse optique",
+      "emoji": "🔥",
+      "description": "Pour souder deux fibres ensemble (fusion)."
+    },
+    {
+      "nom": "Stylo laser (VFL)",
+      "emoji": "💡",
+      "description": "Localise les défauts ou coupures de fibre via un faisceau rouge visible."
+    }
+  ],
+  "appareils_test_mesure": [
+    {
+      "nom": "Réflectomètre optique (OTDR)",
+      "emoji": "📈",
+      "description": "Analyse la qualité de la liaison fibre, détecte cassures et pertes."
+    },
+    {
+      "nom": "Photomètre optique (Power Meter)",
+      "emoji": "💡",
+      "description": "Mesure la puissance lumineuse dans la fibre."
+    },
+    {
+      "nom": "Source lumineuse stabilisée",
+      "emoji": "🧲",
+      "description": "Travaille avec le photomètre pour tester la continuité optique."
+    },
+    {
+      "nom": "Identificateur de trafic optique",
+      "emoji": "🧪",
+      "description": "Vérifie si une fibre est en service (sans déconnexion)."
+    }
+  ],
+  "outils_nettoyage": [
+    {
+      "nom": "Stylo nettoyant pour connecteurs",
+      "emoji": "🧼",
+      "description": "Nettoie l’extrémité des connecteurs (férules)."
+    },
+    {
+      "nom": "Lingettes sans peluche + alcool isopropylique",
+      "emoji": "🧻",
+      "description": "Nettoie les fibres avant fusion."
+    },
+    {
+      "nom": "Pompe soufflante",
+      "emoji": "🧴",
+      "description": "Élimine la poussière des boîtiers optiques."
+    }
+  ],
+  "outillage_complementaire": [
+    {
+      "nom": "Tournevis isolés / cruciformes",
+      "emoji": "🔧",
+      "description": "Pour ouvrir boîtiers, serrer connecteurs."
+    },
+    {
+      "nom": "Pince multiprise / à bec long",
+      "emoji": "🪛",
+      "description": "Manipulation dans les boîtiers étroits."
+    },
+    {
+      "nom": "Marteau perforateur",
+      "emoji": "⚒️",
+      "description": "Fixation de câble ou goulottes."
+    },
+    {
+      "nom": "Forets béton et bois",
+      "emoji": "🧱",
+      "description": "Adaptés aux surfaces traversées."
+    },
+    {
+      "nom": "Mètre ruban / télémètre",
+      "emoji": "📏",
+      "description": "Pour mesurer les longueurs de câble à tirer."
+    },
+    {
+      "nom": "Crayon / marqueur / niveau à bulle",
+      "emoji": "📐",
+      "description": "Marquage et positionnement des équipements."
+    },
+    {
+      "nom": "Chevilles, vis, colliers de serrage, serres câbles",
+      "emoji": "🔩",
+      "description": "Fixation des câbles et boîtiers."
+    },
+    {
+      "nom": "Escabeau ou échelle télescopique",
+      "emoji": "💺",
+      "description": "Pour accéder à des endroits en hauteur."
+    }
+  ],
+  "equipements_specifiques_d3": [
+    {
+      "nom": "Sacoche ou valise FTTH",
+      "emoji": "🎒",
+      "description": "Pour transporter les outils de manière organisée."
+    },
+    {
+      "nom": "Kit de raccordement client",
+      "emoji": "🧰",
+      "description": "Boîtier PTO, jarretière, câble de raccordement intérieur."
+    },
+    {
+      "nom": "Application ou tablette",
+      "emoji": "📱",
+      "description": "Pour saisir les comptes-rendus d’intervention ou relever les mesures."
+    }
+  ],
+  "equipements_protection": [
+    {
+      "nom": "Gilet réfléchissant",
+      "emoji": "🦺",
+      "description": "Sécurité sur voie publique."
+    },
+    {
+      "nom": "Gants anti coupure / de précision",
+      "emoji": "🧤",
+      "description": "Protection lors du travail de précision."
+    },
+    {
+      "nom": "Casque ou lunettes de sécurité",
+      "emoji": "👷",
+      "description": "En cas d’intervention en extérieur ou zone chantier."
+    }
+  ]
+}

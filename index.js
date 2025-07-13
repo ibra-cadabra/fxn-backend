@@ -20,8 +20,9 @@ const app = express();
 // ✅ Configuration CORS pour autoriser Vercel
 app.use(cors({
   origin: [
-    'https://fxn-frontend.vercel.app',
-    'https://fxn-frontend-uy2y-j43cjff0f-ibra-cadabras-projects.vercel.app' // ← ton vrai sous-domaine Vercel
+    'https://fxn-frontend-uy2y.vercel.app',
+    'https://fxn-frontend-uy2y-git-master-ibra-cadabras-projects.vercel.app',
+      'https://fxn-frontend-uy2y-6xf2xugjz-ibra-cadabras-projects.vercel.app'
   ],
   credentials: true
 }));
